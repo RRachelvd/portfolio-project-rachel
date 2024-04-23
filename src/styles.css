@@ -2,7 +2,7 @@
   --primary-color: #ecf2ff;
   --secondary-color: #e3dffd;
   --tertiary-color: #d6b7f8;
-  --accent-color: #fff4d2;
+  --accent-color: #d1ae45;
   --shadow: 6px 4px 15px rgba(0, 0, 0, 0.2);
   --text-color: rgb(55, 52, 61);
 }
@@ -31,23 +31,52 @@ h2 {
   font-weight: 400;
 }
 
+h3 {
+  padding-left: 15px;
+  margin-bottom: 20px;
+  font-family: "Poly", serif;
+  font-weight: 600;
+  font-size: 40px;
+  margin-top: 20px;
+  color: var(--text-color);
+}
+
 h4 {
   opacity: 0.75;
   font-weight: 300;
 }
+
+h6 {
+  text-align: center;
+  margin-bottom: 60px;
+  font-style: italic;
+}
+
+p {
+  margin-left: 12px;
+  padding-right: 40px;
+}
 .hero {
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto 60px auto;
   display: block;
   padding: 170px 100px;
   background-color: var(--primary-color);
 }
 
+.hero-button {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.project-button {
+  margin-top: 80px;
+  margin-left: 35px;
+}
+
 .button {
   text-decoration: none;
-  color: var(--text-color);
-  margin-left: 35px;
-  margin-right: 35px;
+  color: white;
   padding: 23px 27px;
   border-radius: 6px;
   background: var(--accent-color);
@@ -55,4 +84,98 @@ h4 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
+}
+
+.info-inverse {
+  padding-right: 15px;
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.project-button.info-inverse {
+  margin-right: 35px;
+}
+
+.button-inverse {
+  text-decoration: none;
+  color: var(--accent-color);
+  padding: 23px 27px;
+  border-radius: 6px;
+  background: white;
+  box-shadow: var(--shadow);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  border: 1.8px solid var(--accent-color);
+  transition: 1ms ease-in-out;
+}
+
+.button-inverse:hover {
+  text-decoration: none;
+  color: white;
+  padding: 23px 27px;
+  border-radius: 6px;
+  background: var(--accent-color);
+  box-shadow: var(--shadow);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.project-info {
+  margin-left: 25px;
+}
+
+@media (max-width: 900px) {
+  .project-info {
+    text-align: center;
+    margin-left: 0;
+  }
+  .project-button {
+    margin-left: 0;
+  }
+  .hero-button {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  p {
+    padding: 0 5px;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 65px;
+  }
+
+  h3 {
+    font-size: 35px;
+  }
+
+  h4 {
+    line-height: 1.5;
+  }
+
+  h6 {
+    margin-bottom: 30px;
+  }
+
+  .hero {
+    padding: 100px 30px;
+  }
+  .hero-button {
+    margin: 0 10px;
+  }
+
+  .project-button {
+    margin-bottom: 22px;
+  }
+
+  p {
+    padding: 0 12px;
+  }
+  .project-info {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
