@@ -37,7 +37,7 @@ h3 {
   font-family: "Poly", serif;
   font-weight: 600;
   font-size: 40px;
-  margin-top: 20px;
+  margin-top: 2px;
   color: var(--text-color);
 }
 
@@ -80,7 +80,6 @@ p {
   padding: 23px 27px;
   border-radius: 6px;
   background: var(--accent-color);
-  box-shadow: var(--shadow);
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -102,7 +101,6 @@ p {
   padding: 23px 27px;
   border-radius: 6px;
   background: white;
-  box-shadow: var(--shadow);
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -123,14 +121,10 @@ p {
 }
 
 .project-info {
-  margin-left: 25px;
+  margin-left: 18px;
 }
 
 @media (max-width: 900px) {
-  .project-info {
-    text-align: center;
-    margin-left: 0;
-  }
   .project-button {
     margin-left: 0;
   }
@@ -140,6 +134,17 @@ p {
   }
   p {
     padding: 0 5px;
+  }
+
+  h3 {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 750px) {
+  .project-info {
+    text-align: center;
+    margin-left: 0;
   }
 }
 
