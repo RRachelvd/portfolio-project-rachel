@@ -54,6 +54,18 @@ h6 {
 p {
   padding-right: 40px;
 }
+
+img {
+  border-radius: 10px;
+  border: 1.8 solid var(--text-color);
+}
+
+.small-title {
+  font-weight: 500;
+  font-size: large;
+  margin-bottom: 7px;
+  margin-top: 8px;
+}
 .hero {
   text-align: center;
   margin: 0 auto 60px auto;
@@ -140,7 +152,19 @@ p.about-section {
 }
 
 .about-content {
-  padding-right: 2px;
+  padding-right: 10px;
+}
+
+.projects-container {
+  padding-top: 60px;
+}
+
+.about-button {
+  margin: 100px;
+}
+
+.text-end {
+  text-align: right;
 }
 
 @media (min-width: 1250px) {
@@ -149,7 +173,7 @@ p.about-section {
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   .project-button {
     margin-left: 0;
   }
@@ -164,12 +188,27 @@ p.about-section {
   h3 {
     margin-top: 0;
   }
+
+  .rachel {
+    display: flex;
+    margin-top: 70px;
+  }
+
+  .about-button {
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 750px) {
   .project-info {
     text-align: center;
     margin-left: 0;
+  }
+  .about-button {
+    margin: 0px;
+  }
+  .rachel {
+    margin-top: 70px;
   }
 }
 
@@ -190,19 +229,29 @@ p.about-section {
     margin-bottom: 30px;
   }
 
+  .rachel {
+    margin-top: 70px;
+  }
+
   .hero {
     padding: 100px 30px;
   }
   .hero-button {
     margin: 0 10px;
+    font-size: 14px;
   }
 
   .project-button {
     margin-bottom: 22px;
   }
 
+  .about-button {
+    margin: 0px;
+  }
+
   p {
-    padding: 0 12px;
+    padding: 0 0px;
+    margin-left: 0px;
   }
   .project-info {
     margin-left: 0;
