@@ -60,6 +60,11 @@ img {
   border: 1.8 solid var(--text-color);
 }
 
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
 .small-title {
   font-weight: 500;
   font-size: large;
