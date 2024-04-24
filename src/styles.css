@@ -32,7 +32,7 @@ h2 {
 }
 
 h3 {
-  padding-left: 15px;
+  padding-left: 16px;
   margin-bottom: 20px;
   font-family: "Poly", serif;
   font-weight: 600;
@@ -52,7 +52,6 @@ h6 {
 }
 
 p {
-  margin-left: 12px;
   padding-right: 40px;
 }
 .hero {
@@ -104,7 +103,7 @@ p {
   font-weight: 500;
   font-size: 16px;
   border: 1.8px solid var(--accent-color);
-  transition: 1ms ease-in-out;
+  transition: 100ms ease-in-out;
 }
 
 .button-inverse:hover {
@@ -121,6 +120,19 @@ p {
 
 .project-info {
   margin-left: 18px;
+}
+
+h1.about-section {
+  font-size: 50px;
+  margin-top: 8px;
+}
+
+h5.about-section {
+  font-style: italic;
+}
+
+p.about-section {
+  margin-left: 0px;
 }
 
 @media (min-width: 1250px) {
