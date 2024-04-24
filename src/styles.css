@@ -65,6 +65,14 @@ a {
   color: var(--text-color);
 }
 
+li {
+  margin: 0 12px;
+}
+
+.li-home {
+  padding-right: 15px;
+}
+
 .bg-blue {
   background-color: var(--primary-color);
 }
@@ -95,7 +103,7 @@ a {
 
 .project-button {
   margin-top: 80px;
-  margin-left: 35px;
+  margin-left: 17px;
 }
 
 .button {
@@ -156,11 +164,13 @@ h1.about-section {
 h1.contact-section {
   font-size: 50px;
   margin-top: 30px;
+  padding-left: 30px;
 }
 
 h1.project-section {
   font-size: 50px;
   margin-top: 75px;
+  padding-left: 0px;
 }
 
 h5.about-section {
@@ -173,6 +183,13 @@ p.about-section {
 
 .about-wrapper {
   padding-top: 120px;
+}
+
+.work-wrapper {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 50px;
+  padding-bottom: 60px;
 }
 
 .about-content {
@@ -199,7 +216,7 @@ p.about-section {
 
 @media (max-width: 960px) {
   .project-button {
-    margin-left: 0;
+    margin-left: 18px;
   }
   .hero-button {
     margin-left: 25px;
@@ -221,6 +238,20 @@ p.about-section {
   .about-button {
     margin: 0 auto;
   }
+
+  .about-wrapper {
+    padding: 115px 12px;
+  }
+
+  .hero {
+    padding-top: 100px;
+  }
+  li.nav-item {
+    margin: 0px;
+  }
+  .hero {
+    padding: 160px 20px;
+  }
 }
 
 @media (max-width: 750px) {
@@ -233,6 +264,10 @@ p.about-section {
   }
   .rachel {
     margin-top: 70px;
+  }
+
+  li.nav-item {
+    margin: 0px;
   }
 }
 
@@ -253,12 +288,33 @@ p.about-section {
     margin-bottom: 30px;
   }
 
+  h1.project-section {
+    font-size: 30px;
+    margin: 10px auto;
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+
+  h1.contact-section {
+    padding: 10px 5px;
+    padding-bottom: 0px;
+  }
+
+  .projects-container {
+    padding-top: 10px;
+    margin: 0px;
+  }
+
+  li.nav-item {
+    margin: 0px;
+  }
+
   .rachel {
     margin-top: 70px;
   }
 
   .hero {
-    padding: 100px 30px;
+    padding: 120px 30px;
   }
   .hero-button {
     margin: 0 10px;
@@ -267,6 +323,7 @@ p.about-section {
 
   .project-button {
     margin-bottom: 22px;
+    margin-left: 0px;
   }
 
   .about-button {
@@ -280,5 +337,9 @@ p.about-section {
   .project-info {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .about-wrapper {
+    padding: 90px 25px;
   }
 }
