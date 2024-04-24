@@ -65,6 +65,14 @@ a {
   color: var(--text-color);
 }
 
+.bg-blue {
+  background-color: var(--primary-color);
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
 .small-title {
   font-weight: 500;
   font-size: large;
@@ -76,7 +84,7 @@ a {
   text-align: center;
   margin: 0 auto 60px auto;
   display: block;
-  padding: 170px 100px;
+  padding: 209px 100px;
   background-color: var(--primary-color);
 }
 
@@ -145,6 +153,16 @@ h1.about-section {
   margin-top: 8px;
 }
 
+h1.contact-section {
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+h1.project-section {
+  font-size: 50px;
+  margin-top: 75px;
+}
+
 h5.about-section {
   font-style: italic;
 }
@@ -154,7 +172,7 @@ p.about-section {
 }
 
 .about-wrapper {
-  padding-top: 40px;
+  padding-top: 120px;
 }
 
 .about-content {
@@ -162,7 +180,7 @@ p.about-section {
 }
 
 .projects-container {
-  padding-top: 60px;
+  padding-top: 25px;
 }
 
 .about-button {
