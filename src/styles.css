@@ -92,6 +92,10 @@ li {
   font-family: "Poppins", sans-serif;
 }
 
+.monospace {
+  font-family: monospace;
+}
+
 .small-title {
   font-weight: 500;
   font-size: large;
