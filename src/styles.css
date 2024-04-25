@@ -444,4 +444,7 @@ footer {
   .about-wrapper {
     padding: 90px 25px 90px 25px;
   }
+  .links-box {
+    display: none;
+  }
 }
