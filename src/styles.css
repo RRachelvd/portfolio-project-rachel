@@ -415,7 +415,7 @@ footer {
   }
 
   .hero {
-    padding: 120px 30px;
+    padding: 120px 30px 100px 30px;
   }
   .hero-button {
     margin: 0 8px;
