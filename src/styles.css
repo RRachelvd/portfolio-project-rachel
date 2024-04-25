@@ -444,7 +444,7 @@ footer {
   .about-wrapper {
     padding: 90px 25px 90px 25px;
   }
-  .links-box {
+  .links-box.contact-page {
     display: none;
   }
 }
