@@ -115,6 +115,7 @@ li {
   margin-left: 40px;
   margin-right: 40px;
   transition: all 100ms ease-in-out;
+  border: 1.8px solid var(--accent-color);
 }
 
 .hero-button:hover {
