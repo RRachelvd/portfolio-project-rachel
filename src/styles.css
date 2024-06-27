@@ -309,6 +309,10 @@ footer {
   margin-top: 160px;
 }
 
+.coded-by a {
+  font-weight: 800;
+}
+
 @media (min-width: 1250px) {
   h3 {
     margin-top: 30px;
