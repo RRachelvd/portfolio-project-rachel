@@ -452,4 +452,13 @@ footer {
   .contact-page.links-box {
     display: none;
   }
+
+  footer .coded-by {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .links-box .mail {
+    font-size: 17px;
+  }
 }
