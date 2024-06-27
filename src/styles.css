@@ -150,6 +150,13 @@ li {
   transition: all 100ms ease-in-out;
 }
 
+.about-button {
+  margin-left: 40px;
+  margin-right: 40px;
+  transition: all 120ms ease-in-out;
+  border: 1.8px solid var(--accent-color);
+}
+
 .about-button:hover {
   text-decoration: none;
   color: var(--accent-color);
@@ -174,6 +181,10 @@ li {
   font-size: 16px;
   transition: all 120ms ease-in-out;
   border: 1.8px solid var(--accent-color);
+}
+
+.projects {
+  margin-right: 50px;
 }
 
 .info-inverse {
@@ -209,6 +220,10 @@ li {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
+}
+
+.buttons {
+  display: inline;
 }
 
 .project-info {
@@ -257,10 +272,6 @@ p.about-section {
 
 .projects-container {
   padding-top: 25px;
-}
-
-.about-button {
-  margin: 100px;
 }
 
 .text-end {
@@ -331,10 +342,6 @@ footer {
     margin-top: 70px;
   }
 
-  .about-button {
-    margin: 0 auto;
-  }
-
   .about-wrapper {
     padding: 115px 12px;
   }
@@ -358,14 +365,12 @@ footer {
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 770px) {
   .project-info {
     text-align: center;
     margin-left: 0;
   }
-  .about-button {
-    margin: 0px;
-  }
+
   .rachel {
     margin-top: 70px;
   }
@@ -374,13 +379,14 @@ footer {
     margin: 0px;
   }
 
-  hero-button {
-    margin: 0 12px;
-    font-size: 10px;
+  .hero-button.resume,
+  .hero-button.projects {
+    font-size: 14px;
+    margin: 0;
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 580px) {
   h1 {
     font-size: 65px;
   }
@@ -434,10 +440,6 @@ footer {
     margin-left: 0px;
   }
 
-  .about-button {
-    margin: 0px;
-  }
-
   p {
     padding: 0 0px;
     margin-left: 0px;
@@ -461,5 +463,20 @@ footer {
 
   .links-box .mail {
     font-size: 17px;
+  }
+}
+
+@media (max-width: 480px) {
+  .buttons {
+    display: block;
+    text-align: center;
+  }
+
+  .buttons.projects {
+    margin: 0;
+  }
+
+  .buttons.resume {
+    margin-top: 70px;
   }
 }
