@@ -256,7 +256,7 @@ p.about-section {
 }
 
 .about-wrapper {
-  padding-top: 120px;
+  padding-top: 105px;
 }
 
 .work-wrapper {
@@ -405,13 +405,14 @@ footer {
 
   h1.project-section {
     font-size: 35px;
-    margin: 15px auto 18px auto;
+    margin: 12px auto 15px auto;
     padding-left: 0px;
   }
 
   h1.contact-section {
     padding: 10px 5px;
     padding-bottom: 0px;
+    margin-top: 15px;
   }
 
   .projects-container {
@@ -450,7 +451,7 @@ footer {
   }
 
   .about-wrapper {
-    padding: 90px 25px 90px 25px;
+    padding: 82px 25px 90px 25px;
   }
   .contact-page.links-box {
     display: none;
