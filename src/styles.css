@@ -388,6 +388,11 @@ footer {
     font-size: 14px;
     margin: 0;
   }
+  .hero-button.resume:hover,
+  .hero-button.projects:hover {
+    font-size: 14px;
+    margin: 0px;
+  }
 }
 
 @media (max-width: 580px) {
