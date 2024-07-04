@@ -439,6 +439,10 @@ footer {
     margin: 0 8px;
     font-size: 13px;
   }
+  .hero-button:hover {
+    margin: 0 8px;
+    font-size: 13px;
+  }
 
   .project-button {
     margin-bottom: 22px;
